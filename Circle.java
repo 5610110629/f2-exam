@@ -7,7 +7,7 @@ public class Circle extends Shape implements AreaCalculable{
     }
 
     public double getRadius(){
-        return redius;
+        return radius;
     }
 
     public void setRadius(double radius){

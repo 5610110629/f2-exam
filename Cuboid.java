@@ -3,7 +3,7 @@ public class Cuboid extends Shape implements AreaCalculable , VolumeCalculable {
     private double height;
     private double depth;
 
-	public Rectangle(String name, double width, double height){
+	public Cuboid(String name, double width, double height, double depth){
 		super(name);
 		this.width = width;
         this.height = height;

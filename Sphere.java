@@ -7,7 +7,7 @@ public class Sphere extends Shape implements AreaCalculable , VolumeCalculable{
     }
 
     public double getRadius(){
-        return redius;
+        return radius;
     }
 
     public void setRadius(double radius){
