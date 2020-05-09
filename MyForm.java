@@ -25,11 +25,11 @@ public class MyForm extends JFrame {
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 362, 249);
-        setTitle("ThaiCreate.Com Java GUI Tutorial");
+        setTitle("Calculator Shapes");
         getContentPane().setLayout(null);
 
         // Text Field
-        JTextField txt = new JTextField();
+        JTextField txt = new JTextField("Enter Key");
         txt.setBounds(103, 41, 144, 20);
         getContentPane().add(txt);
         txt.setColumns(10);
@@ -40,7 +40,7 @@ public class MyForm extends JFrame {
         getContentPane().add(lbl);
 
         // Button
-        JButton btn1 = new JButton("Button 1");
+        JButton btn1 = new JButton("Calculate");
         btn1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 lbl.setText("Hello : "+ txt.getText());
